@@ -3,8 +3,8 @@
 This project is a fully functional security module developed for iObjects. Its functional requirements were based on the Windows Server security system, which should cover some pretty exciting features, like:
 
 - Roles
-  - Schedule: days of the week and time of the day to allow user's access.
-  - Objects and commands: where you can check every single object and its commands to allow user's access.
+  - Schedule: days of the week and hours of the day in which the users are allowed to log in.
+  - Objects and commands: business objects which the users are allowed to access and the commands which the users are allowed to perform on these objects.
   - Companies: each company the user has access in a multi-company enviroment.
 - Users
   - Many to many relationship with roles.
