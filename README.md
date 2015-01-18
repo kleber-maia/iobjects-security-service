@@ -5,14 +5,14 @@ This project is a fully functional security module developed for iObjects. Its f
 - Roles
   - Schedule: days of the week and hours of the day in which the users are allowed to log in.
   - Objects and commands: business objects which the users are allowed to access and the commands which the users are allowed to perform on these objects.
-  - Companies: each company the user has access in a multi-company enviroment.
+  - Companies: each one of the companies which the users are allowed to access its data in a multi-company enviroment.
 - Users
-  - Many to many relationship with roles.
   - Access by user name or e-mail.
   - Account expiration date.
   - Password expiration date.
   - Possibility to deny change of password (demo accounts).
   - Possibility to request to change the password in the next login.
+- Many-to-many relationship between roles and users: the users have the sum of the roles' rights in which they are assigned.
 
 ![](https://raw.github.com/kleber-maia/iobjects-security-service/master/README.img/1.png)
 ![](https://raw.github.com/kleber-maia/iobjects-security-service/master/README.img/2.png)
