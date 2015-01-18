@@ -1,6 +1,6 @@
 # iObjects Security Service
 
-This project is a fully functional security module developed for iObjects. Its functional requirements were based on Windows server security, which should cover some pretty exciting features, like:
+This project is a fully functional security module developed for iObjects. Its functional requirements were based on the Windows Server security system, which should cover some pretty exciting features, like:
 
 - Roles
   - Schedule: days of the week and time of the day to allow user's access.
