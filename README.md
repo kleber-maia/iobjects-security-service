@@ -37,9 +37,6 @@ If you want to use Eclipse or another IDE:
 - Make sure to build the project using ".iobjects" extension instead of ".war", ex: securityservice.iobjects;
 - Distribute the builded project's archive to iobjects/web.work/extensions directory.
 
-## Database structure
-There is a .sql file on the root of this project which contains all the needed table structure. Although the script was generated from a PostgreSQL database, it should be easy to migrate it to another RDMS of your choice.
-
 ## Users and passwords
 The following users will be automatically created on the first run. Additionally, you'll be able to insert any users and roles that you need by using the module's interface.
 - Username: **@Super Usuário**, Password: **superusuario**
